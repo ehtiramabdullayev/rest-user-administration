@@ -46,7 +46,7 @@ public class UserController {
         return userService.findUserById(id);
     }
 
-    @RequestMapping(value = "deleteUserById", method = RequestMethod.PUT, produces = {"application/json"})
+    @RequestMapping(value = "deleteUserById", method = RequestMethod.DELETE, produces = {"application/json"})
     public User deleteUserById(@RequestBody Long id) {
         return userService.deleteUserById(id);
     }
