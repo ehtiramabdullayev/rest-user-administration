@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3bf6e31-a00a-45c7-badd-34ba2349d100" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/administration/rest/config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/administration/rest/domain/UserNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/administration/rest/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/administration/rest/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/administration/rest/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/administration/rest/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/administration/rest/repository/map/AbstractMapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/administration/rest/repository/map/AbstractMapService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/administration/rest/repository/map/UserMapRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/administration/rest/repository/map/UserMapRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/administration/rest/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/administration/rest/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/administration/rest/repository/BasicRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/administration/rest/repository/BasicRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/administration/rest/repository/map/AbstractMapService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/administration/rest/repository/map/AbstractMapService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/administration/rest/repository/map/UserMapRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/administration/rest/repository/map/UserMapRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/administration/rest/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/administration/rest/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/administration/rest/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/administration/rest/config/SwaggerConfig.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,13 +25,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#1055#1056#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
                 <element signature="e#1311#1312#0" expanded="true" />
                 <element signature="e#1351#1352#0" expanded="true" />
                 <element signature="e#1512#1513#0" expanded="true" />
@@ -49,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+            <state relative-caret-position="182">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/config/SwaggerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="182">
+              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,9 +193,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/administration/rest/repository/map/AbstractMapService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/administration/rest/repository/map/UserMapRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/administration/rest/domain/UserNew.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/administration/rest/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/administration/rest/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -421,12 +413,12 @@
       <updated>1571605762168</updated>
       <workItem from="1571605763597" duration="6378000" />
       <workItem from="1571612825006" duration="630000" />
-      <workItem from="1571647435694" duration="8476000" />
+      <workItem from="1571647435694" duration="10516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8476000" />
+    <option name="totallyTimeSpent" value="10516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="0" width="1546" height="830" extended-state="0" />
@@ -576,6 +568,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/domain/UserNew.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -596,54 +629,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="35" column="32" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1565#1566#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/administration/rest/config/SwaggerConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="182">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
         </state>
       </provider>
     </entry>
