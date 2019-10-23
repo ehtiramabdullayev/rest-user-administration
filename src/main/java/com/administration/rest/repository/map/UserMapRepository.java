@@ -12,7 +12,7 @@ import java.util.Set;
  * @project rest-admin-api
  */
 @Repository
-public class UserMapRepository extends AbstractMapService<User,Long> implements UserRepository {
+public class UserMapRepository extends AbstractMapService<User, Long> implements UserRepository {
     @Override
     public Set<User> findAll() {
         return super.findAll();
@@ -34,7 +34,7 @@ public class UserMapRepository extends AbstractMapService<User,Long> implements 
     }
 
     @Override
-    public void deleteById(Long id) {
-        super.deleteById(id);
+    public User deleteById(Long id) {
+        return super.deleteById(id);
     }
 }

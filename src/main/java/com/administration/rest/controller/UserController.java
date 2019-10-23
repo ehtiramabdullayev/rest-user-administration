@@ -22,29 +22,29 @@ public class UserController {
         this.userService = userService;
     }
 
-    @RequestMapping(value = "/addUser", method = RequestMethod.POST, consumes = {"application/json"})
+    @RequestMapping(value = "v1/addUser", method = RequestMethod.POST, consumes = {"application/json"})
     public User addUser(@RequestBody User user) {
         return userService.addUser(user);
     }
 
-    @GetMapping(value = "/listUsers")
+    @GetMapping(value = "v1/listUsers")
     public Set<User> getUsers() {
         return userService.listUsers();
     }
 
 
-    @RequestMapping(value = "/changeUser", method = RequestMethod.PUT, consumes = {"application/json"})
-    public User changeUser(User user) {
+    @RequestMapping(value = "v1/changeUser", method = RequestMethod.PUT, consumes = {"application/json"})
+    public User changeUser(@RequestBody User user) {
         return userService.changeUser(user);
     }
 
-    @RequestMapping(value = "/getUserById", method = RequestMethod.GET, produces = {"application/json"})
-    public User findUserById(Long id) {
+    @RequestMapping(value = "v1/getUserById", method = RequestMethod.GET, produces = {"application/json"})
+    public User findUserById(@RequestBody Long id) {
         return userService.findUserById(id);
     }
 
-    @RequestMapping(value = "/deleteUserById", method = RequestMethod.PUT, produces = {"application/json"})
-    public User deleteUserById(Long id) {
+    @RequestMapping(value = "v1/deleteUserById", method = RequestMethod.PUT, produces = {"application/json"})
+    public User deleteUserById(@RequestBody Long id) {
         return userService.deleteUserById(id);
     }
 
