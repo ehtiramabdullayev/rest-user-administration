@@ -1,0 +1,9 @@
+com\administration\rest\controller\UserController.class
+com\administration\rest\RestAdminApiWebApplication.class
+com\administration\rest\repository\map\UserMapRepository.class
+com\administration\rest\repository\UserRepository.class
+com\administration\rest\repository\map\AbstractMapService.class
+com\administration\rest\service\UserService.class
+com\administration\rest\domain\User.class
+com\administration\rest\repository\BasicRepository.class
+com\administration\rest\domain\BaseEntity.class
