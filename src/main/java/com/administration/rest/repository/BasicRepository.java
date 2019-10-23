@@ -15,5 +15,5 @@ public interface BasicRepository<T,ID> {
 
     void delete(T object);
 
-    void deleteById(ID id);
+    T deleteById(ID id);
 }

@@ -16,11 +16,26 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public User addUser(User user){
+    public User addUser(User user) {
         return userRepository.save(user);
     }
 
-    public Set<User> listUsers(){
+    public User changeUser(User user) {
+        return userRepository.save(user);
+    }
+
+
+    public Set<User> listUsers() {
         return userRepository.findAll();
     }
+
+    public User findUserById(Long id) {
+        return userRepository.findById(id);
+    }
+
+    public User deleteUserById(Long id) {
+        return userRepository.deleteById(id);
+    }
+
+
 }
